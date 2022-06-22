@@ -66,6 +66,45 @@ body {
     color: #F9FAF8;
 }
 
+#info {
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.randomInfo {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    color: #949494;
+}
+
+.infoBlock {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 20px;
+    flex-basis: 150px;
+}
+
+.placeholderImage {
+    height: 150px;
+    width: 150px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 8px;
+}
+
 #topQuote {
     font-weight: lighter;
 }
